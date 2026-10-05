@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.6",
+  "snapshot_sha256": "fae1b254aa351f2ad1f3e6b054b06616e7e99f4f860a0c549e65bdec2139c9df",
+  "artifacts": [
+    {
+      "path": "analysis.json",
+      "size": 523793,
+      "sha256": "fae1b254aa351f2ad1f3e6b054b06616e7e99f4f860a0c549e65bdec2139c9df"
+    },
+    {
+      "path": "impact.json",
+      "size": 523793,
+      "sha256": "fae1b254aa351f2ad1f3e6b054b06616e7e99f4f860a0c549e65bdec2139c9df"
+    },
+    {
+      "path": "call_graph.json",
+      "size": 104815,
+      "sha256": "fba38391c39ffbada13e468dd3819c2a583c5403d27b26e517919986694b31e3"
+    },
+    {
+      "path": "api_surface.json",
+      "size": 145242,
+      "sha256": "dfccba9e3346c56c9101b1d449cd5997c4af00b4a39f070f8324b761a4385361"
+    },
+    {
+      "path": "report.md",
+      "size": 4619,
+      "sha256": "6ff9f14559709f606a6bc871f44f2c30077d6c00cc6bca627402396c07a2e47f"
+    },
+    {
+      "path": "impact.md",
+      "size": 4619,
+      "sha256": "6ff9f14559709f606a6bc871f44f2c30077d6c00cc6bca627402396c07a2e47f"
+    },
+    {
+      "path": "report.html",
+      "size": 181495,
+      "sha256": "a2a96a66b5f262ee738546182f42128b7591a6f3aee5d9ec064baf573000e635"
+    }
+  ]
+}

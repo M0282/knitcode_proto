@@ -1,0 +1,5409 @@
+{
+  "surface": {
+    "symbols": [
+      {
+        "id": "subbrute/subbrute.py::verify_nameservers",
+        "file": "subbrute/subbrute.py",
+        "name": "verify_nameservers",
+        "kind": "class",
+        "visibility": "public",
+        "line": 38,
+        "bases": [
+          "multiprocessing.Process"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::lookup",
+        "file": "subbrute/subbrute.py",
+        "name": "lookup",
+        "kind": "class",
+        "visibility": "public",
+        "line": 177,
+        "bases": [
+          "multiprocessing.Process"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::verify_nameservers.__init__",
+        "file": "subbrute/subbrute.py",
+        "name": "verify_nameservers.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 40,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "target",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "record_type",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resolver_q",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resolver_list",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "wildcards",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::verify_nameservers.end",
+        "file": "subbrute/subbrute.py",
+        "name": "verify_nameservers.end",
+        "kind": "method",
+        "visibility": "public",
+        "line": 76,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::verify_nameservers.add_nameserver",
+        "file": "subbrute/subbrute.py",
+        "name": "verify_nameservers.add_nameserver",
+        "kind": "method",
+        "visibility": "public",
+        "line": 80,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "nameserver",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::verify_nameservers.verify",
+        "file": "subbrute/subbrute.py",
+        "name": "verify_nameservers.verify",
+        "kind": "method",
+        "visibility": "public",
+        "line": 91,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "nameserver_list",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::verify_nameservers.run",
+        "file": "subbrute/subbrute.py",
+        "name": "verify_nameservers.run",
+        "kind": "method",
+        "visibility": "public",
+        "line": 117,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+        "file": "subbrute/subbrute.py",
+        "name": "verify_nameservers.find_wildcards",
+        "kind": "method",
+        "visibility": "public",
+        "line": 133,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "host",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::lookup.__init__",
+        "file": "subbrute/subbrute.py",
+        "name": "lookup.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 179,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "in_q",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "out_q",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resolver_q",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "wildcards",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "spider_blacklist",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::lookup.get_ns",
+        "file": "subbrute/subbrute.py",
+        "name": "lookup.get_ns",
+        "kind": "method",
+        "visibility": "public",
+        "line": 193,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::lookup.get_ns_blocking",
+        "file": "subbrute/subbrute.py",
+        "name": "lookup.get_ns_blocking",
+        "kind": "method",
+        "visibility": "public",
+        "line": 205,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::lookup.check",
+        "file": "subbrute/subbrute.py",
+        "name": "lookup.check",
+        "kind": "method",
+        "visibility": "public",
+        "line": 215,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "host",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "record_type",
+            "annotation": null,
+            "default": "'A'",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "retries",
+            "annotation": null,
+            "default": "0",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::lookup.run",
+        "file": "subbrute/subbrute.py",
+        "name": "lookup.run",
+        "kind": "method",
+        "visibility": "public",
+        "line": 301,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::extract_hosts",
+        "file": "subbrute/subbrute.py",
+        "name": "extract_hosts",
+        "kind": "function",
+        "visibility": "public",
+        "line": 360,
+        "parameters": [
+          {
+            "name": "data",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "hostname",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::extract_subdomains",
+        "file": "subbrute/subbrute.py",
+        "name": "extract_subdomains",
+        "kind": "function",
+        "visibility": "public",
+        "line": 375,
+        "parameters": [
+          {
+            "name": "file_name",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::print_target",
+        "file": "subbrute/subbrute.py",
+        "name": "print_target",
+        "kind": "function",
+        "visibility": "public",
+        "line": 407,
+        "parameters": [
+          {
+            "name": "target",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "record_type",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "'names.txt'",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resolve_list",
+            "annotation": null,
+            "default": "'resolvers.txt'",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "process_count",
+            "annotation": null,
+            "default": "16",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "output",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "json_output",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "found_subdomains",
+            "annotation": null,
+            "default": "[]",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::run",
+        "file": "subbrute/subbrute.py",
+        "name": "run",
+        "kind": "function",
+        "visibility": "public",
+        "line": 424,
+        "parameters": [
+          {
+            "name": "target",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "record_type",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "'names.txt'",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resolve_list",
+            "annotation": null,
+            "default": "'resolvers.txt'",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "process_count",
+            "annotation": null,
+            "default": "16",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::killproc",
+        "file": "subbrute/subbrute.py",
+        "name": "killproc",
+        "kind": "function",
+        "visibility": "public",
+        "line": 500,
+        "parameters": [
+          {
+            "name": "signum",
+            "annotation": null,
+            "default": "0",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "frame",
+            "annotation": null,
+            "default": "0",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "pid",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::trace",
+        "file": "subbrute/subbrute.py",
+        "name": "trace",
+        "kind": "function",
+        "visibility": "public",
+        "line": 516,
+        "parameters": [
+          {
+            "name": "args",
+            "annotation": null,
+            "default": null,
+            "kind": "var_positional"
+          },
+          {
+            "name": "kwargs",
+            "annotation": null,
+            "default": null,
+            "kind": "var_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::error",
+        "file": "subbrute/subbrute.py",
+        "name": "error",
+        "kind": "function",
+        "visibility": "public",
+        "line": 523,
+        "parameters": [
+          {
+            "name": "args",
+            "annotation": null,
+            "default": null,
+            "kind": "var_positional"
+          },
+          {
+            "name": "kwargs",
+            "annotation": null,
+            "default": null,
+            "kind": "var_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::check_open",
+        "file": "subbrute/subbrute.py",
+        "name": "check_open",
+        "kind": "function",
+        "visibility": "public",
+        "line": 530,
+        "parameters": [
+          {
+            "name": "input_file",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::signal_init",
+        "file": "subbrute/subbrute.py",
+        "name": "signal_init",
+        "kind": "function",
+        "visibility": "public",
+        "line": 543,
+        "parameters": [],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBase",
+        "file": "sublist3r.py",
+        "name": "enumratorBase",
+        "kind": "class",
+        "visibility": "public",
+        "line": 143,
+        "bases": [
+          "object"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBaseThreaded",
+        "file": "sublist3r.py",
+        "name": "enumratorBaseThreaded",
+        "kind": "class",
+        "visibility": "public",
+        "line": 259,
+        "bases": [
+          "multiprocessing.Process",
+          "enumratorBase"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::GoogleEnum",
+        "file": "sublist3r.py",
+        "name": "GoogleEnum",
+        "kind": "class",
+        "visibility": "public",
+        "line": 273,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::YahooEnum",
+        "file": "sublist3r.py",
+        "name": "YahooEnum",
+        "kind": "class",
+        "visibility": "public",
+        "line": 323,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::AskEnum",
+        "file": "sublist3r.py",
+        "name": "AskEnum",
+        "kind": "class",
+        "visibility": "public",
+        "line": 374,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BingEnum",
+        "file": "sublist3r.py",
+        "name": "BingEnum",
+        "kind": "class",
+        "visibility": "public",
+        "line": 417,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BaiduEnum",
+        "file": "sublist3r.py",
+        "name": "BaiduEnum",
+        "kind": "class",
+        "visibility": "public",
+        "line": 462,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum",
+        "kind": "class",
+        "visibility": "public",
+        "line": 522,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::DNSdumpster",
+        "file": "sublist3r.py",
+        "name": "DNSdumpster",
+        "kind": "class",
+        "visibility": "public",
+        "line": 597,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::Virustotal",
+        "file": "sublist3r.py",
+        "name": "Virustotal",
+        "kind": "class",
+        "visibility": "public",
+        "line": 676,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::ThreatCrowd",
+        "file": "sublist3r.py",
+        "name": "ThreatCrowd",
+        "kind": "class",
+        "visibility": "public",
+        "line": 727,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::CrtSearch",
+        "file": "sublist3r.py",
+        "name": "CrtSearch",
+        "kind": "class",
+        "visibility": "public",
+        "line": 765,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::PassiveDNS",
+        "file": "sublist3r.py",
+        "name": "PassiveDNS",
+        "kind": "class",
+        "visibility": "public",
+        "line": 816,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::portscan",
+        "file": "sublist3r.py",
+        "name": "portscan",
+        "kind": "class",
+        "visibility": "public",
+        "line": 854,
+        "bases": [],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::no_color",
+        "file": "sublist3r.py",
+        "name": "no_color",
+        "kind": "function",
+        "visibility": "public",
+        "line": 69,
+        "parameters": [],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::banner",
+        "file": "sublist3r.py",
+        "name": "banner",
+        "kind": "function",
+        "visibility": "public",
+        "line": 74,
+        "parameters": [],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::parser_error",
+        "file": "sublist3r.py",
+        "name": "parser_error",
+        "kind": "function",
+        "visibility": "public",
+        "line": 86,
+        "parameters": [
+          {
+            "name": "errmsg",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::parse_args",
+        "file": "sublist3r.py",
+        "name": "parse_args",
+        "kind": "function",
+        "visibility": "public",
+        "line": 93,
+        "parameters": [],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::write_file",
+        "file": "sublist3r.py",
+        "name": "write_file",
+        "kind": "function",
+        "visibility": "public",
+        "line": 109,
+        "parameters": [
+          {
+            "name": "filename",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::subdomain_sorting_key",
+        "file": "sublist3r.py",
+        "name": "subdomain_sorting_key",
+        "kind": "function",
+        "visibility": "public",
+        "line": 117,
+        "parameters": [
+          {
+            "name": "hostname",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": true,
+        "docstring": "Sorting key for subdomains\n\nThis sorting key orders subdomains from the top-level domain at the right\nreading left, then moving '^' and 'www' to the top of their group. For\nexample, the following list is sorted correctly:\n\n[\n    'example.com',\n    'www.example.com',\n    'a.example.com',\n    'www.a.example.com',\n    'b.a.example.com',\n    'b.example.com',\n    'example.net',\n    'www.example.net',\n    'a.example.net',\n]"
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.__init__",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 144,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "base_url",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "engine_name",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "silent",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": "True",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.print_",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.print_",
+        "kind": "method",
+        "visibility": "public",
+        "line": 162,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "text",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.print_banner",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.print_banner",
+        "kind": "method",
+        "visibility": "public",
+        "line": 167,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": true,
+        "docstring": "subclass can override this if they want a fancy banner :)"
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.send_req",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.send_req",
+        "kind": "method",
+        "visibility": "public",
+        "line": 172,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "query",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "page_no",
+            "annotation": null,
+            "default": "1",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.get_response",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.get_response",
+        "kind": "method",
+        "visibility": "public",
+        "line": 181,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "response",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.check_max_subdomains",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.check_max_subdomains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 186,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "count",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.check_max_pages",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.check_max_pages",
+        "kind": "method",
+        "visibility": "public",
+        "line": 191,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "num",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.extract_domains",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 197,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": true,
+        "docstring": "chlid class should override this function "
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.check_response_errors",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.check_response_errors",
+        "kind": "method",
+        "visibility": "public",
+        "line": 202,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": true,
+        "docstring": "chlid class should override this function\nThe function should return True if there are no errors and False otherwise"
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.should_sleep",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.should_sleep",
+        "kind": "method",
+        "visibility": "public",
+        "line": 208,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": true,
+        "docstring": "Some enumrators require sleeping to avoid bot detections like Google enumerator"
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.generate_query",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.generate_query",
+        "kind": "method",
+        "visibility": "public",
+        "line": 212,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": true,
+        "docstring": "chlid class should override this function "
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.get_page",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.get_page",
+        "kind": "method",
+        "visibility": "public",
+        "line": 216,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "num",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": true,
+        "docstring": "chlid class that user different pagnation counter should override this function "
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.enumerate",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.enumerate",
+        "kind": "method",
+        "visibility": "public",
+        "line": 220,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "altquery",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBaseThreaded.__init__",
+        "file": "sublist3r.py",
+        "name": "enumratorBaseThreaded.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 260,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "base_url",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "engine_name",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "q",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "silent",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": "True",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBaseThreaded.run",
+        "file": "sublist3r.py",
+        "name": "enumratorBaseThreaded.run",
+        "kind": "method",
+        "visibility": "public",
+        "line": 267,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::GoogleEnum.__init__",
+        "file": "sublist3r.py",
+        "name": "GoogleEnum.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 274,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "q",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "silent",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": "True",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::GoogleEnum.extract_domains",
+        "file": "sublist3r.py",
+        "name": "GoogleEnum.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 284,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::GoogleEnum.check_response_errors",
+        "file": "sublist3r.py",
+        "name": "GoogleEnum.check_response_errors",
+        "kind": "method",
+        "visibility": "public",
+        "line": 302,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::GoogleEnum.should_sleep",
+        "file": "sublist3r.py",
+        "name": "GoogleEnum.should_sleep",
+        "kind": "method",
+        "visibility": "public",
+        "line": 309,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::GoogleEnum.generate_query",
+        "file": "sublist3r.py",
+        "name": "GoogleEnum.generate_query",
+        "kind": "method",
+        "visibility": "public",
+        "line": 313,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::YahooEnum.__init__",
+        "file": "sublist3r.py",
+        "name": "YahooEnum.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 324,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "q",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "silent",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": "True",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::YahooEnum.extract_domains",
+        "file": "sublist3r.py",
+        "name": "YahooEnum.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 334,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::YahooEnum.should_sleep",
+        "file": "sublist3r.py",
+        "name": "YahooEnum.should_sleep",
+        "kind": "method",
+        "visibility": "public",
+        "line": 358,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::YahooEnum.get_page",
+        "file": "sublist3r.py",
+        "name": "YahooEnum.get_page",
+        "kind": "method",
+        "visibility": "public",
+        "line": 361,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "num",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::YahooEnum.generate_query",
+        "file": "sublist3r.py",
+        "name": "YahooEnum.generate_query",
+        "kind": "method",
+        "visibility": "public",
+        "line": 364,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::AskEnum.__init__",
+        "file": "sublist3r.py",
+        "name": "AskEnum.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 375,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "q",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "silent",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": "True",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::AskEnum.extract_domains",
+        "file": "sublist3r.py",
+        "name": "AskEnum.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 385,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::AskEnum.get_page",
+        "file": "sublist3r.py",
+        "name": "AskEnum.get_page",
+        "kind": "method",
+        "visibility": "public",
+        "line": 403,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "num",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::AskEnum.generate_query",
+        "file": "sublist3r.py",
+        "name": "AskEnum.generate_query",
+        "kind": "method",
+        "visibility": "public",
+        "line": 406,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BingEnum.__init__",
+        "file": "sublist3r.py",
+        "name": "BingEnum.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 418,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "q",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "silent",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": "True",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BingEnum.extract_domains",
+        "file": "sublist3r.py",
+        "name": "BingEnum.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 429,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BingEnum.generate_query",
+        "file": "sublist3r.py",
+        "name": "BingEnum.generate_query",
+        "kind": "method",
+        "visibility": "public",
+        "line": 452,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BaiduEnum.__init__",
+        "file": "sublist3r.py",
+        "name": "BaiduEnum.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 463,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "q",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "silent",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": "True",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BaiduEnum.extract_domains",
+        "file": "sublist3r.py",
+        "name": "BaiduEnum.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 474,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BaiduEnum.findsubs",
+        "file": "sublist3r.py",
+        "name": "BaiduEnum.findsubs",
+        "kind": "method",
+        "visibility": "public",
+        "line": 499,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BaiduEnum.check_response_errors",
+        "file": "sublist3r.py",
+        "name": "BaiduEnum.check_response_errors",
+        "kind": "method",
+        "visibility": "public",
+        "line": 506,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BaiduEnum.should_sleep",
+        "file": "sublist3r.py",
+        "name": "BaiduEnum.should_sleep",
+        "kind": "method",
+        "visibility": "public",
+        "line": 509,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BaiduEnum.generate_query",
+        "file": "sublist3r.py",
+        "name": "BaiduEnum.generate_query",
+        "kind": "method",
+        "visibility": "public",
+        "line": 513,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum.__init__",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 523,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "q",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "silent",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": "True",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum.req",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum.req",
+        "kind": "method",
+        "visibility": "public",
+        "line": 531,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "url",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "cookies",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum.should_sleep",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum.should_sleep",
+        "kind": "method",
+        "visibility": "public",
+        "line": 540,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum.get_next",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum.get_next",
+        "kind": "method",
+        "visibility": "public",
+        "line": 544,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum.create_cookies",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum.create_cookies",
+        "kind": "method",
+        "visibility": "public",
+        "line": 550,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "cookie",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum.get_cookies",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum.get_cookies",
+        "kind": "method",
+        "visibility": "public",
+        "line": 558,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "headers",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum.enumerate",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum.enumerate",
+        "kind": "method",
+        "visibility": "public",
+        "line": 565,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum.extract_domains",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 579,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::DNSdumpster.__init__",
+        "file": "sublist3r.py",
+        "name": "DNSdumpster.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 598,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "q",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "silent",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": "True",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::DNSdumpster.check_host",
+        "file": "sublist3r.py",
+        "name": "DNSdumpster.check_host",
+        "kind": "method",
+        "visibility": "public",
+        "line": 608,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "host",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::DNSdumpster.req",
+        "file": "sublist3r.py",
+        "name": "DNSdumpster.req",
+        "kind": "method",
+        "visibility": "public",
+        "line": 625,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "req_method",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "url",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "params",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::DNSdumpster.get_csrftoken",
+        "file": "sublist3r.py",
+        "name": "DNSdumpster.get_csrftoken",
+        "kind": "method",
+        "visibility": "public",
+        "line": 639,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::DNSdumpster.enumerate",
+        "file": "sublist3r.py",
+        "name": "DNSdumpster.enumerate",
+        "kind": "method",
+        "visibility": "public",
+        "line": 644,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::DNSdumpster.extract_domains",
+        "file": "sublist3r.py",
+        "name": "DNSdumpster.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 657,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::Virustotal.__init__",
+        "file": "sublist3r.py",
+        "name": "Virustotal.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 677,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "q",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "silent",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": "True",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::Virustotal.send_req",
+        "file": "sublist3r.py",
+        "name": "Virustotal.send_req",
+        "kind": "method",
+        "visibility": "public",
+        "line": 687,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "url",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::Virustotal.enumerate",
+        "file": "sublist3r.py",
+        "name": "Virustotal.enumerate",
+        "kind": "method",
+        "visibility": "public",
+        "line": 697,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::Virustotal.extract_domains",
+        "file": "sublist3r.py",
+        "name": "Virustotal.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 711,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::ThreatCrowd.__init__",
+        "file": "sublist3r.py",
+        "name": "ThreatCrowd.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 728,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "q",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "silent",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": "True",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::ThreatCrowd.req",
+        "file": "sublist3r.py",
+        "name": "ThreatCrowd.req",
+        "kind": "method",
+        "visibility": "public",
+        "line": 736,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "url",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::ThreatCrowd.enumerate",
+        "file": "sublist3r.py",
+        "name": "ThreatCrowd.enumerate",
+        "kind": "method",
+        "visibility": "public",
+        "line": 744,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::ThreatCrowd.extract_domains",
+        "file": "sublist3r.py",
+        "name": "ThreatCrowd.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 750,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::CrtSearch.__init__",
+        "file": "sublist3r.py",
+        "name": "CrtSearch.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 766,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "q",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "silent",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": "True",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::CrtSearch.req",
+        "file": "sublist3r.py",
+        "name": "CrtSearch.req",
+        "kind": "method",
+        "visibility": "public",
+        "line": 774,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "url",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::CrtSearch.enumerate",
+        "file": "sublist3r.py",
+        "name": "CrtSearch.enumerate",
+        "kind": "method",
+        "visibility": "public",
+        "line": 782,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::CrtSearch.extract_domains",
+        "file": "sublist3r.py",
+        "name": "CrtSearch.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 789,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::PassiveDNS.__init__",
+        "file": "sublist3r.py",
+        "name": "PassiveDNS.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 817,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "q",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "silent",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": "True",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::PassiveDNS.req",
+        "file": "sublist3r.py",
+        "name": "PassiveDNS.req",
+        "kind": "method",
+        "visibility": "public",
+        "line": 825,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "url",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::PassiveDNS.enumerate",
+        "file": "sublist3r.py",
+        "name": "PassiveDNS.enumerate",
+        "kind": "method",
+        "visibility": "public",
+        "line": 833,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::PassiveDNS.extract_domains",
+        "file": "sublist3r.py",
+        "name": "PassiveDNS.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 842,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::portscan.__init__",
+        "file": "sublist3r.py",
+        "name": "portscan.__init__",
+        "kind": "method",
+        "visibility": "dunder",
+        "line": 855,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "ports",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::portscan.port_scan",
+        "file": "sublist3r.py",
+        "name": "portscan.port_scan",
+        "kind": "method",
+        "visibility": "public",
+        "line": 860,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "host",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "ports",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::portscan.run",
+        "file": "sublist3r.py",
+        "name": "portscan.run",
+        "kind": "method",
+        "visibility": "public",
+        "line": 877,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::main",
+        "file": "sublist3r.py",
+        "name": "main",
+        "kind": "function",
+        "visibility": "public",
+        "line": 884,
+        "parameters": [
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "threads",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "savefile",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "ports",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "silent",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "enable_bruteforce",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "engines",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::interactive",
+        "file": "sublist3r.py",
+        "name": "interactive",
+        "kind": "function",
+        "visibility": "public",
+        "line": 989,
+        "parameters": [],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      }
+    ],
+    "public_symbols": [
+      {
+        "id": "subbrute/subbrute.py::verify_nameservers",
+        "file": "subbrute/subbrute.py",
+        "name": "verify_nameservers",
+        "kind": "class",
+        "visibility": "public",
+        "line": 38,
+        "bases": [
+          "multiprocessing.Process"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::lookup",
+        "file": "subbrute/subbrute.py",
+        "name": "lookup",
+        "kind": "class",
+        "visibility": "public",
+        "line": 177,
+        "bases": [
+          "multiprocessing.Process"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::verify_nameservers.end",
+        "file": "subbrute/subbrute.py",
+        "name": "verify_nameservers.end",
+        "kind": "method",
+        "visibility": "public",
+        "line": 76,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::verify_nameservers.add_nameserver",
+        "file": "subbrute/subbrute.py",
+        "name": "verify_nameservers.add_nameserver",
+        "kind": "method",
+        "visibility": "public",
+        "line": 80,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "nameserver",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::verify_nameservers.verify",
+        "file": "subbrute/subbrute.py",
+        "name": "verify_nameservers.verify",
+        "kind": "method",
+        "visibility": "public",
+        "line": 91,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "nameserver_list",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::verify_nameservers.run",
+        "file": "subbrute/subbrute.py",
+        "name": "verify_nameservers.run",
+        "kind": "method",
+        "visibility": "public",
+        "line": 117,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+        "file": "subbrute/subbrute.py",
+        "name": "verify_nameservers.find_wildcards",
+        "kind": "method",
+        "visibility": "public",
+        "line": 133,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "host",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::lookup.get_ns",
+        "file": "subbrute/subbrute.py",
+        "name": "lookup.get_ns",
+        "kind": "method",
+        "visibility": "public",
+        "line": 193,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::lookup.get_ns_blocking",
+        "file": "subbrute/subbrute.py",
+        "name": "lookup.get_ns_blocking",
+        "kind": "method",
+        "visibility": "public",
+        "line": 205,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::lookup.check",
+        "file": "subbrute/subbrute.py",
+        "name": "lookup.check",
+        "kind": "method",
+        "visibility": "public",
+        "line": 215,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "host",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "record_type",
+            "annotation": null,
+            "default": "'A'",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "retries",
+            "annotation": null,
+            "default": "0",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::lookup.run",
+        "file": "subbrute/subbrute.py",
+        "name": "lookup.run",
+        "kind": "method",
+        "visibility": "public",
+        "line": 301,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::extract_hosts",
+        "file": "subbrute/subbrute.py",
+        "name": "extract_hosts",
+        "kind": "function",
+        "visibility": "public",
+        "line": 360,
+        "parameters": [
+          {
+            "name": "data",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "hostname",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::extract_subdomains",
+        "file": "subbrute/subbrute.py",
+        "name": "extract_subdomains",
+        "kind": "function",
+        "visibility": "public",
+        "line": 375,
+        "parameters": [
+          {
+            "name": "file_name",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::print_target",
+        "file": "subbrute/subbrute.py",
+        "name": "print_target",
+        "kind": "function",
+        "visibility": "public",
+        "line": 407,
+        "parameters": [
+          {
+            "name": "target",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "record_type",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "'names.txt'",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resolve_list",
+            "annotation": null,
+            "default": "'resolvers.txt'",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "process_count",
+            "annotation": null,
+            "default": "16",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "output",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "json_output",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "found_subdomains",
+            "annotation": null,
+            "default": "[]",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::run",
+        "file": "subbrute/subbrute.py",
+        "name": "run",
+        "kind": "function",
+        "visibility": "public",
+        "line": 424,
+        "parameters": [
+          {
+            "name": "target",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "record_type",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": "'names.txt'",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resolve_list",
+            "annotation": null,
+            "default": "'resolvers.txt'",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "process_count",
+            "annotation": null,
+            "default": "16",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::killproc",
+        "file": "subbrute/subbrute.py",
+        "name": "killproc",
+        "kind": "function",
+        "visibility": "public",
+        "line": 500,
+        "parameters": [
+          {
+            "name": "signum",
+            "annotation": null,
+            "default": "0",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "frame",
+            "annotation": null,
+            "default": "0",
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "pid",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::trace",
+        "file": "subbrute/subbrute.py",
+        "name": "trace",
+        "kind": "function",
+        "visibility": "public",
+        "line": 516,
+        "parameters": [
+          {
+            "name": "args",
+            "annotation": null,
+            "default": null,
+            "kind": "var_positional"
+          },
+          {
+            "name": "kwargs",
+            "annotation": null,
+            "default": null,
+            "kind": "var_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::error",
+        "file": "subbrute/subbrute.py",
+        "name": "error",
+        "kind": "function",
+        "visibility": "public",
+        "line": 523,
+        "parameters": [
+          {
+            "name": "args",
+            "annotation": null,
+            "default": null,
+            "kind": "var_positional"
+          },
+          {
+            "name": "kwargs",
+            "annotation": null,
+            "default": null,
+            "kind": "var_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::check_open",
+        "file": "subbrute/subbrute.py",
+        "name": "check_open",
+        "kind": "function",
+        "visibility": "public",
+        "line": 530,
+        "parameters": [
+          {
+            "name": "input_file",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "subbrute/subbrute.py::signal_init",
+        "file": "subbrute/subbrute.py",
+        "name": "signal_init",
+        "kind": "function",
+        "visibility": "public",
+        "line": 543,
+        "parameters": [],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBase",
+        "file": "sublist3r.py",
+        "name": "enumratorBase",
+        "kind": "class",
+        "visibility": "public",
+        "line": 143,
+        "bases": [
+          "object"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBaseThreaded",
+        "file": "sublist3r.py",
+        "name": "enumratorBaseThreaded",
+        "kind": "class",
+        "visibility": "public",
+        "line": 259,
+        "bases": [
+          "multiprocessing.Process",
+          "enumratorBase"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::GoogleEnum",
+        "file": "sublist3r.py",
+        "name": "GoogleEnum",
+        "kind": "class",
+        "visibility": "public",
+        "line": 273,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::YahooEnum",
+        "file": "sublist3r.py",
+        "name": "YahooEnum",
+        "kind": "class",
+        "visibility": "public",
+        "line": 323,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::AskEnum",
+        "file": "sublist3r.py",
+        "name": "AskEnum",
+        "kind": "class",
+        "visibility": "public",
+        "line": 374,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BingEnum",
+        "file": "sublist3r.py",
+        "name": "BingEnum",
+        "kind": "class",
+        "visibility": "public",
+        "line": 417,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BaiduEnum",
+        "file": "sublist3r.py",
+        "name": "BaiduEnum",
+        "kind": "class",
+        "visibility": "public",
+        "line": 462,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum",
+        "kind": "class",
+        "visibility": "public",
+        "line": 522,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::DNSdumpster",
+        "file": "sublist3r.py",
+        "name": "DNSdumpster",
+        "kind": "class",
+        "visibility": "public",
+        "line": 597,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::Virustotal",
+        "file": "sublist3r.py",
+        "name": "Virustotal",
+        "kind": "class",
+        "visibility": "public",
+        "line": 676,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::ThreatCrowd",
+        "file": "sublist3r.py",
+        "name": "ThreatCrowd",
+        "kind": "class",
+        "visibility": "public",
+        "line": 727,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::CrtSearch",
+        "file": "sublist3r.py",
+        "name": "CrtSearch",
+        "kind": "class",
+        "visibility": "public",
+        "line": 765,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::PassiveDNS",
+        "file": "sublist3r.py",
+        "name": "PassiveDNS",
+        "kind": "class",
+        "visibility": "public",
+        "line": 816,
+        "bases": [
+          "enumratorBaseThreaded"
+        ],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::portscan",
+        "file": "sublist3r.py",
+        "name": "portscan",
+        "kind": "class",
+        "visibility": "public",
+        "line": 854,
+        "bases": [],
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::no_color",
+        "file": "sublist3r.py",
+        "name": "no_color",
+        "kind": "function",
+        "visibility": "public",
+        "line": 69,
+        "parameters": [],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::banner",
+        "file": "sublist3r.py",
+        "name": "banner",
+        "kind": "function",
+        "visibility": "public",
+        "line": 74,
+        "parameters": [],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::parser_error",
+        "file": "sublist3r.py",
+        "name": "parser_error",
+        "kind": "function",
+        "visibility": "public",
+        "line": 86,
+        "parameters": [
+          {
+            "name": "errmsg",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::parse_args",
+        "file": "sublist3r.py",
+        "name": "parse_args",
+        "kind": "function",
+        "visibility": "public",
+        "line": 93,
+        "parameters": [],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::write_file",
+        "file": "sublist3r.py",
+        "name": "write_file",
+        "kind": "function",
+        "visibility": "public",
+        "line": 109,
+        "parameters": [
+          {
+            "name": "filename",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::subdomain_sorting_key",
+        "file": "sublist3r.py",
+        "name": "subdomain_sorting_key",
+        "kind": "function",
+        "visibility": "public",
+        "line": 117,
+        "parameters": [
+          {
+            "name": "hostname",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": true,
+        "docstring": "Sorting key for subdomains\n\nThis sorting key orders subdomains from the top-level domain at the right\nreading left, then moving '^' and 'www' to the top of their group. For\nexample, the following list is sorted correctly:\n\n[\n    'example.com',\n    'www.example.com',\n    'a.example.com',\n    'www.a.example.com',\n    'b.a.example.com',\n    'b.example.com',\n    'example.net',\n    'www.example.net',\n    'a.example.net',\n]"
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.print_",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.print_",
+        "kind": "method",
+        "visibility": "public",
+        "line": 162,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "text",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.print_banner",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.print_banner",
+        "kind": "method",
+        "visibility": "public",
+        "line": 167,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": true,
+        "docstring": "subclass can override this if they want a fancy banner :)"
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.send_req",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.send_req",
+        "kind": "method",
+        "visibility": "public",
+        "line": 172,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "query",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "page_no",
+            "annotation": null,
+            "default": "1",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.get_response",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.get_response",
+        "kind": "method",
+        "visibility": "public",
+        "line": 181,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "response",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.check_max_subdomains",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.check_max_subdomains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 186,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "count",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.check_max_pages",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.check_max_pages",
+        "kind": "method",
+        "visibility": "public",
+        "line": 191,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "num",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.extract_domains",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 197,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": true,
+        "docstring": "chlid class should override this function "
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.check_response_errors",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.check_response_errors",
+        "kind": "method",
+        "visibility": "public",
+        "line": 202,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": true,
+        "docstring": "chlid class should override this function\nThe function should return True if there are no errors and False otherwise"
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.should_sleep",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.should_sleep",
+        "kind": "method",
+        "visibility": "public",
+        "line": 208,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": true,
+        "docstring": "Some enumrators require sleeping to avoid bot detections like Google enumerator"
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.generate_query",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.generate_query",
+        "kind": "method",
+        "visibility": "public",
+        "line": 212,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": true,
+        "docstring": "chlid class should override this function "
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.get_page",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.get_page",
+        "kind": "method",
+        "visibility": "public",
+        "line": 216,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "num",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": true,
+        "docstring": "chlid class that user different pagnation counter should override this function "
+      },
+      {
+        "id": "sublist3r.py::enumratorBase.enumerate",
+        "file": "sublist3r.py",
+        "name": "enumratorBase.enumerate",
+        "kind": "method",
+        "visibility": "public",
+        "line": 220,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "altquery",
+            "annotation": null,
+            "default": "False",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::enumratorBaseThreaded.run",
+        "file": "sublist3r.py",
+        "name": "enumratorBaseThreaded.run",
+        "kind": "method",
+        "visibility": "public",
+        "line": 267,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::GoogleEnum.extract_domains",
+        "file": "sublist3r.py",
+        "name": "GoogleEnum.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 284,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::GoogleEnum.check_response_errors",
+        "file": "sublist3r.py",
+        "name": "GoogleEnum.check_response_errors",
+        "kind": "method",
+        "visibility": "public",
+        "line": 302,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::GoogleEnum.should_sleep",
+        "file": "sublist3r.py",
+        "name": "GoogleEnum.should_sleep",
+        "kind": "method",
+        "visibility": "public",
+        "line": 309,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::GoogleEnum.generate_query",
+        "file": "sublist3r.py",
+        "name": "GoogleEnum.generate_query",
+        "kind": "method",
+        "visibility": "public",
+        "line": 313,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::YahooEnum.extract_domains",
+        "file": "sublist3r.py",
+        "name": "YahooEnum.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 334,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::YahooEnum.should_sleep",
+        "file": "sublist3r.py",
+        "name": "YahooEnum.should_sleep",
+        "kind": "method",
+        "visibility": "public",
+        "line": 358,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::YahooEnum.get_page",
+        "file": "sublist3r.py",
+        "name": "YahooEnum.get_page",
+        "kind": "method",
+        "visibility": "public",
+        "line": 361,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "num",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::YahooEnum.generate_query",
+        "file": "sublist3r.py",
+        "name": "YahooEnum.generate_query",
+        "kind": "method",
+        "visibility": "public",
+        "line": 364,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::AskEnum.extract_domains",
+        "file": "sublist3r.py",
+        "name": "AskEnum.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 385,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::AskEnum.get_page",
+        "file": "sublist3r.py",
+        "name": "AskEnum.get_page",
+        "kind": "method",
+        "visibility": "public",
+        "line": 403,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "num",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::AskEnum.generate_query",
+        "file": "sublist3r.py",
+        "name": "AskEnum.generate_query",
+        "kind": "method",
+        "visibility": "public",
+        "line": 406,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BingEnum.extract_domains",
+        "file": "sublist3r.py",
+        "name": "BingEnum.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 429,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BingEnum.generate_query",
+        "file": "sublist3r.py",
+        "name": "BingEnum.generate_query",
+        "kind": "method",
+        "visibility": "public",
+        "line": 452,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BaiduEnum.extract_domains",
+        "file": "sublist3r.py",
+        "name": "BaiduEnum.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 474,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BaiduEnum.findsubs",
+        "file": "sublist3r.py",
+        "name": "BaiduEnum.findsubs",
+        "kind": "method",
+        "visibility": "public",
+        "line": 499,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "subdomains",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BaiduEnum.check_response_errors",
+        "file": "sublist3r.py",
+        "name": "BaiduEnum.check_response_errors",
+        "kind": "method",
+        "visibility": "public",
+        "line": 506,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BaiduEnum.should_sleep",
+        "file": "sublist3r.py",
+        "name": "BaiduEnum.should_sleep",
+        "kind": "method",
+        "visibility": "public",
+        "line": 509,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::BaiduEnum.generate_query",
+        "file": "sublist3r.py",
+        "name": "BaiduEnum.generate_query",
+        "kind": "method",
+        "visibility": "public",
+        "line": 513,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum.req",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum.req",
+        "kind": "method",
+        "visibility": "public",
+        "line": 531,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "url",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "cookies",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum.should_sleep",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum.should_sleep",
+        "kind": "method",
+        "visibility": "public",
+        "line": 540,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum.get_next",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum.get_next",
+        "kind": "method",
+        "visibility": "public",
+        "line": 544,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum.create_cookies",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum.create_cookies",
+        "kind": "method",
+        "visibility": "public",
+        "line": 550,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "cookie",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum.get_cookies",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum.get_cookies",
+        "kind": "method",
+        "visibility": "public",
+        "line": 558,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "headers",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum.enumerate",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum.enumerate",
+        "kind": "method",
+        "visibility": "public",
+        "line": 565,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::NetcraftEnum.extract_domains",
+        "file": "sublist3r.py",
+        "name": "NetcraftEnum.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 579,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::DNSdumpster.check_host",
+        "file": "sublist3r.py",
+        "name": "DNSdumpster.check_host",
+        "kind": "method",
+        "visibility": "public",
+        "line": 608,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "host",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::DNSdumpster.req",
+        "file": "sublist3r.py",
+        "name": "DNSdumpster.req",
+        "kind": "method",
+        "visibility": "public",
+        "line": 625,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "req_method",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "url",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "params",
+            "annotation": null,
+            "default": "None",
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::DNSdumpster.get_csrftoken",
+        "file": "sublist3r.py",
+        "name": "DNSdumpster.get_csrftoken",
+        "kind": "method",
+        "visibility": "public",
+        "line": 639,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::DNSdumpster.enumerate",
+        "file": "sublist3r.py",
+        "name": "DNSdumpster.enumerate",
+        "kind": "method",
+        "visibility": "public",
+        "line": 644,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::DNSdumpster.extract_domains",
+        "file": "sublist3r.py",
+        "name": "DNSdumpster.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 657,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::Virustotal.send_req",
+        "file": "sublist3r.py",
+        "name": "Virustotal.send_req",
+        "kind": "method",
+        "visibility": "public",
+        "line": 687,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "url",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::Virustotal.enumerate",
+        "file": "sublist3r.py",
+        "name": "Virustotal.enumerate",
+        "kind": "method",
+        "visibility": "public",
+        "line": 697,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::Virustotal.extract_domains",
+        "file": "sublist3r.py",
+        "name": "Virustotal.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 711,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::ThreatCrowd.req",
+        "file": "sublist3r.py",
+        "name": "ThreatCrowd.req",
+        "kind": "method",
+        "visibility": "public",
+        "line": 736,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "url",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::ThreatCrowd.enumerate",
+        "file": "sublist3r.py",
+        "name": "ThreatCrowd.enumerate",
+        "kind": "method",
+        "visibility": "public",
+        "line": 744,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::ThreatCrowd.extract_domains",
+        "file": "sublist3r.py",
+        "name": "ThreatCrowd.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 750,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::CrtSearch.req",
+        "file": "sublist3r.py",
+        "name": "CrtSearch.req",
+        "kind": "method",
+        "visibility": "public",
+        "line": 774,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "url",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::CrtSearch.enumerate",
+        "file": "sublist3r.py",
+        "name": "CrtSearch.enumerate",
+        "kind": "method",
+        "visibility": "public",
+        "line": 782,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::CrtSearch.extract_domains",
+        "file": "sublist3r.py",
+        "name": "CrtSearch.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 789,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::PassiveDNS.req",
+        "file": "sublist3r.py",
+        "name": "PassiveDNS.req",
+        "kind": "method",
+        "visibility": "public",
+        "line": 825,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "url",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::PassiveDNS.enumerate",
+        "file": "sublist3r.py",
+        "name": "PassiveDNS.enumerate",
+        "kind": "method",
+        "visibility": "public",
+        "line": 833,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::PassiveDNS.extract_domains",
+        "file": "sublist3r.py",
+        "name": "PassiveDNS.extract_domains",
+        "kind": "method",
+        "visibility": "public",
+        "line": 842,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "resp",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::portscan.port_scan",
+        "file": "sublist3r.py",
+        "name": "portscan.port_scan",
+        "kind": "method",
+        "visibility": "public",
+        "line": 860,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "host",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "ports",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::portscan.run",
+        "file": "sublist3r.py",
+        "name": "portscan.run",
+        "kind": "method",
+        "visibility": "public",
+        "line": 877,
+        "parameters": [
+          {
+            "name": "self",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::main",
+        "file": "sublist3r.py",
+        "name": "main",
+        "kind": "function",
+        "visibility": "public",
+        "line": 884,
+        "parameters": [
+          {
+            "name": "domain",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "threads",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "savefile",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "ports",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "silent",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "verbose",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "enable_bruteforce",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          },
+          {
+            "name": "engines",
+            "annotation": null,
+            "default": null,
+            "kind": "positional_or_keyword"
+          }
+        ],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      },
+      {
+        "id": "sublist3r.py::interactive",
+        "file": "sublist3r.py",
+        "name": "interactive",
+        "kind": "function",
+        "visibility": "public",
+        "line": 989,
+        "parameters": [],
+        "return_annotation": null,
+        "decorators": [],
+        "documented": false,
+        "docstring": null
+      }
+    ],
+    "counts": {
+      "all": 115,
+      "public": 99,
+      "documented_public": 7,
+      "functions": 17,
+      "methods": 82,
+      "classes": 16
+    },
+    "limitations": [
+      "정적 API 모델이므로 export 별칭과 런타임 생성 멤버를 놓칠 수 있습니다."
+    ]
+  },
+  "changes": {
+    "available": true,
+    "breaking": [],
+    "changes": [
+      {
+        "symbol": "sublist3r.py::enumratorBaseThreaded.__init__",
+        "kind": "signature_changed",
+        "severity": "review",
+        "detail": "매개변수 또는 반환 타입 주석이 변경되었습니다."
+      }
+    ]
+  }
+}

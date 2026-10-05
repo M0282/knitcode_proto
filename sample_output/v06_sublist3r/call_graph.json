@@ -1,0 +1,4075 @@
+{
+  "nodes": [
+    {
+      "id": "subbrute/subbrute.py::<module>",
+      "type": "module",
+      "file": "subbrute/subbrute.py",
+      "name": "<module>"
+    },
+    {
+      "id": "subbrute/subbrute.py::check_open",
+      "type": "function",
+      "file": "subbrute/subbrute.py",
+      "name": "check_open",
+      "line": 530
+    },
+    {
+      "id": "subbrute/subbrute.py::error",
+      "type": "function",
+      "file": "subbrute/subbrute.py",
+      "name": "error",
+      "line": 523
+    },
+    {
+      "id": "subbrute/subbrute.py::extract_hosts",
+      "type": "function",
+      "file": "subbrute/subbrute.py",
+      "name": "extract_hosts",
+      "line": 360
+    },
+    {
+      "id": "subbrute/subbrute.py::extract_subdomains",
+      "type": "function",
+      "file": "subbrute/subbrute.py",
+      "name": "extract_subdomains",
+      "line": 375
+    },
+    {
+      "id": "subbrute/subbrute.py::killproc",
+      "type": "function",
+      "file": "subbrute/subbrute.py",
+      "name": "killproc",
+      "line": 500
+    },
+    {
+      "id": "subbrute/subbrute.py::lookup",
+      "type": "class",
+      "file": "subbrute/subbrute.py",
+      "name": "lookup",
+      "line": 177
+    },
+    {
+      "id": "subbrute/subbrute.py::lookup.__init__",
+      "type": "method",
+      "file": "subbrute/subbrute.py",
+      "name": "lookup.__init__",
+      "line": 179
+    },
+    {
+      "id": "subbrute/subbrute.py::lookup.check",
+      "type": "method",
+      "file": "subbrute/subbrute.py",
+      "name": "lookup.check",
+      "line": 215
+    },
+    {
+      "id": "subbrute/subbrute.py::lookup.get_ns",
+      "type": "method",
+      "file": "subbrute/subbrute.py",
+      "name": "lookup.get_ns",
+      "line": 193
+    },
+    {
+      "id": "subbrute/subbrute.py::lookup.get_ns_blocking",
+      "type": "method",
+      "file": "subbrute/subbrute.py",
+      "name": "lookup.get_ns_blocking",
+      "line": 205
+    },
+    {
+      "id": "subbrute/subbrute.py::lookup.run",
+      "type": "method",
+      "file": "subbrute/subbrute.py",
+      "name": "lookup.run",
+      "line": 301
+    },
+    {
+      "id": "subbrute/subbrute.py::print_target",
+      "type": "function",
+      "file": "subbrute/subbrute.py",
+      "name": "print_target",
+      "line": 407
+    },
+    {
+      "id": "subbrute/subbrute.py::run",
+      "type": "function",
+      "file": "subbrute/subbrute.py",
+      "name": "run",
+      "line": 424
+    },
+    {
+      "id": "subbrute/subbrute.py::signal_init",
+      "type": "function",
+      "file": "subbrute/subbrute.py",
+      "name": "signal_init",
+      "line": 543
+    },
+    {
+      "id": "subbrute/subbrute.py::trace",
+      "type": "function",
+      "file": "subbrute/subbrute.py",
+      "name": "trace",
+      "line": 516
+    },
+    {
+      "id": "subbrute/subbrute.py::verify_nameservers",
+      "type": "class",
+      "file": "subbrute/subbrute.py",
+      "name": "verify_nameservers",
+      "line": 38
+    },
+    {
+      "id": "subbrute/subbrute.py::verify_nameservers.__init__",
+      "type": "method",
+      "file": "subbrute/subbrute.py",
+      "name": "verify_nameservers.__init__",
+      "line": 40
+    },
+    {
+      "id": "subbrute/subbrute.py::verify_nameservers.add_nameserver",
+      "type": "method",
+      "file": "subbrute/subbrute.py",
+      "name": "verify_nameservers.add_nameserver",
+      "line": 80
+    },
+    {
+      "id": "subbrute/subbrute.py::verify_nameservers.end",
+      "type": "method",
+      "file": "subbrute/subbrute.py",
+      "name": "verify_nameservers.end",
+      "line": 76
+    },
+    {
+      "id": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "type": "method",
+      "file": "subbrute/subbrute.py",
+      "name": "verify_nameservers.find_wildcards",
+      "line": 133
+    },
+    {
+      "id": "subbrute/subbrute.py::verify_nameservers.run",
+      "type": "method",
+      "file": "subbrute/subbrute.py",
+      "name": "verify_nameservers.run",
+      "line": 117
+    },
+    {
+      "id": "subbrute/subbrute.py::verify_nameservers.verify",
+      "type": "method",
+      "file": "subbrute/subbrute.py",
+      "name": "verify_nameservers.verify",
+      "line": 91
+    },
+    {
+      "id": "sublist3r.py::<module>",
+      "type": "module",
+      "file": "sublist3r.py",
+      "name": "<module>"
+    },
+    {
+      "id": "sublist3r.py::BaiduEnum.extract_domains",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "BaiduEnum.extract_domains",
+      "line": 474
+    },
+    {
+      "id": "sublist3r.py::BaiduEnum.findsubs",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "BaiduEnum.findsubs",
+      "line": 499
+    },
+    {
+      "id": "sublist3r.py::CrtSearch.enumerate",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "CrtSearch.enumerate",
+      "line": 782
+    },
+    {
+      "id": "sublist3r.py::CrtSearch.extract_domains",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "CrtSearch.extract_domains",
+      "line": 789
+    },
+    {
+      "id": "sublist3r.py::CrtSearch.req",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "CrtSearch.req",
+      "line": 774
+    },
+    {
+      "id": "sublist3r.py::DNSdumpster.enumerate",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "DNSdumpster.enumerate",
+      "line": 644
+    },
+    {
+      "id": "sublist3r.py::DNSdumpster.extract_domains",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "DNSdumpster.extract_domains",
+      "line": 657
+    },
+    {
+      "id": "sublist3r.py::DNSdumpster.get_csrftoken",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "DNSdumpster.get_csrftoken",
+      "line": 639
+    },
+    {
+      "id": "sublist3r.py::DNSdumpster.req",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "DNSdumpster.req",
+      "line": 625
+    },
+    {
+      "id": "sublist3r.py::NetcraftEnum.create_cookies",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "NetcraftEnum.create_cookies",
+      "line": 550
+    },
+    {
+      "id": "sublist3r.py::NetcraftEnum.enumerate",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "NetcraftEnum.enumerate",
+      "line": 565
+    },
+    {
+      "id": "sublist3r.py::NetcraftEnum.extract_domains",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "NetcraftEnum.extract_domains",
+      "line": 579
+    },
+    {
+      "id": "sublist3r.py::NetcraftEnum.get_cookies",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "NetcraftEnum.get_cookies",
+      "line": 558
+    },
+    {
+      "id": "sublist3r.py::NetcraftEnum.get_next",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "NetcraftEnum.get_next",
+      "line": 544
+    },
+    {
+      "id": "sublist3r.py::NetcraftEnum.req",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "NetcraftEnum.req",
+      "line": 531
+    },
+    {
+      "id": "sublist3r.py::NetcraftEnum.should_sleep",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "NetcraftEnum.should_sleep",
+      "line": 540
+    },
+    {
+      "id": "sublist3r.py::PassiveDNS.enumerate",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "PassiveDNS.enumerate",
+      "line": 833
+    },
+    {
+      "id": "sublist3r.py::PassiveDNS.extract_domains",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "PassiveDNS.extract_domains",
+      "line": 842
+    },
+    {
+      "id": "sublist3r.py::PassiveDNS.req",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "PassiveDNS.req",
+      "line": 825
+    },
+    {
+      "id": "sublist3r.py::ThreatCrowd.enumerate",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "ThreatCrowd.enumerate",
+      "line": 744
+    },
+    {
+      "id": "sublist3r.py::ThreatCrowd.extract_domains",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "ThreatCrowd.extract_domains",
+      "line": 750
+    },
+    {
+      "id": "sublist3r.py::ThreatCrowd.req",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "ThreatCrowd.req",
+      "line": 736
+    },
+    {
+      "id": "sublist3r.py::Virustotal.enumerate",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "Virustotal.enumerate",
+      "line": 697
+    },
+    {
+      "id": "sublist3r.py::Virustotal.extract_domains",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "Virustotal.extract_domains",
+      "line": 711
+    },
+    {
+      "id": "sublist3r.py::Virustotal.send_req",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "Virustotal.send_req",
+      "line": 687
+    },
+    {
+      "id": "sublist3r.py::banner",
+      "type": "function",
+      "file": "sublist3r.py",
+      "name": "banner",
+      "line": 74
+    },
+    {
+      "id": "sublist3r.py::enumratorBase.__init__",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "enumratorBase.__init__",
+      "line": 144
+    },
+    {
+      "id": "sublist3r.py::enumratorBase.check_max_pages",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "enumratorBase.check_max_pages",
+      "line": 191
+    },
+    {
+      "id": "sublist3r.py::enumratorBase.check_max_subdomains",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "enumratorBase.check_max_subdomains",
+      "line": 186
+    },
+    {
+      "id": "sublist3r.py::enumratorBase.check_response_errors",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "enumratorBase.check_response_errors",
+      "line": 202
+    },
+    {
+      "id": "sublist3r.py::enumratorBase.enumerate",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "enumratorBase.enumerate",
+      "line": 220
+    },
+    {
+      "id": "sublist3r.py::enumratorBase.extract_domains",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "enumratorBase.extract_domains",
+      "line": 197
+    },
+    {
+      "id": "sublist3r.py::enumratorBase.generate_query",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "enumratorBase.generate_query",
+      "line": 212
+    },
+    {
+      "id": "sublist3r.py::enumratorBase.get_page",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "enumratorBase.get_page",
+      "line": 216
+    },
+    {
+      "id": "sublist3r.py::enumratorBase.get_response",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "enumratorBase.get_response",
+      "line": 181
+    },
+    {
+      "id": "sublist3r.py::enumratorBase.print_",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "enumratorBase.print_",
+      "line": 162
+    },
+    {
+      "id": "sublist3r.py::enumratorBase.print_banner",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "enumratorBase.print_banner",
+      "line": 167
+    },
+    {
+      "id": "sublist3r.py::enumratorBase.send_req",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "enumratorBase.send_req",
+      "line": 172
+    },
+    {
+      "id": "sublist3r.py::enumratorBase.should_sleep",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "enumratorBase.should_sleep",
+      "line": 208
+    },
+    {
+      "id": "sublist3r.py::interactive",
+      "type": "function",
+      "file": "sublist3r.py",
+      "name": "interactive",
+      "line": 989
+    },
+    {
+      "id": "sublist3r.py::main",
+      "type": "function",
+      "file": "sublist3r.py",
+      "name": "main",
+      "line": 884
+    },
+    {
+      "id": "sublist3r.py::no_color",
+      "type": "function",
+      "file": "sublist3r.py",
+      "name": "no_color",
+      "line": 69
+    },
+    {
+      "id": "sublist3r.py::parse_args",
+      "type": "function",
+      "file": "sublist3r.py",
+      "name": "parse_args",
+      "line": 93
+    },
+    {
+      "id": "sublist3r.py::parser_error",
+      "type": "function",
+      "file": "sublist3r.py",
+      "name": "parser_error",
+      "line": 86
+    },
+    {
+      "id": "sublist3r.py::portscan",
+      "type": "class",
+      "file": "sublist3r.py",
+      "name": "portscan",
+      "line": 854
+    },
+    {
+      "id": "sublist3r.py::portscan.run",
+      "type": "method",
+      "file": "sublist3r.py",
+      "name": "portscan.run",
+      "line": 877
+    },
+    {
+      "id": "sublist3r.py::write_file",
+      "type": "function",
+      "file": "sublist3r.py",
+      "name": "write_file",
+      "line": 109
+    }
+  ],
+  "edges": [
+    {
+      "source": "subbrute/subbrute.py::verify_nameservers.__init__",
+      "target": "subbrute/subbrute.py::signal_init",
+      "type": "calls",
+      "line": 43,
+      "callee": "signal_init",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::verify_nameservers.add_nameserver",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 85,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::verify_nameservers.verify",
+      "target": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "type": "calls",
+      "line": 105,
+      "callee": "self.find_wildcards",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::verify_nameservers.verify",
+      "target": "subbrute/subbrute.py::verify_nameservers.add_nameserver",
+      "type": "calls",
+      "line": 108,
+      "callee": "self.add_nameserver",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::verify_nameservers.verify",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 111,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::verify_nameservers.verify",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 114,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::verify_nameservers.run",
+      "target": "subbrute/subbrute.py::verify_nameservers.verify",
+      "type": "calls",
+      "line": 120,
+      "callee": "self.verify",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::verify_nameservers.run",
+      "target": "subbrute/subbrute.py::verify_nameservers.verify",
+      "type": "calls",
+      "line": 124,
+      "callee": "self.verify",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 143,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 171,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.__init__",
+      "target": "subbrute/subbrute.py::signal_init",
+      "type": "calls",
+      "line": 181,
+      "callee": "signal_init",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.get_ns_blocking",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 209,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.check",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 216,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.check",
+      "target": "subbrute/subbrute.py::lookup.get_ns",
+      "type": "calls",
+      "line": 221,
+      "callee": "self.get_ns",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.check",
+      "target": "subbrute/subbrute.py::extract_hosts",
+      "type": "calls",
+      "line": 229,
+      "callee": "extract_hosts",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.check",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 233,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.check",
+      "target": "subbrute/subbrute.py::lookup.get_ns_blocking",
+      "type": "calls",
+      "line": 259,
+      "callee": "self.get_ns_blocking",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.check",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 267,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.check",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 271,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.check",
+      "target": "subbrute/subbrute.py::error",
+      "type": "calls",
+      "line": 295,
+      "callee": "error",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.check",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 297,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.run",
+      "target": "subbrute/subbrute.py::lookup.get_ns_blocking",
+      "type": "calls",
+      "line": 303,
+      "callee": "self.get_ns_blocking",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.run",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 316,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.run",
+      "target": "subbrute/subbrute.py::lookup.check",
+      "type": "calls",
+      "line": 331,
+      "callee": "self.check",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.run",
+      "target": "subbrute/subbrute.py::lookup.check",
+      "type": "calls",
+      "line": 334,
+      "callee": "self.check",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.run",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 336,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::lookup.run",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 345,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::extract_subdomains",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 392,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::print_target",
+      "target": "subbrute/subbrute.py::run",
+      "type": "calls",
+      "line": 410,
+      "callee": "run",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::print_target",
+      "target": "subbrute/subbrute.py::run",
+      "type": "calls",
+      "line": 411,
+      "callee": "run",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::run",
+      "target": "subbrute/subbrute.py::check_open",
+      "type": "calls",
+      "line": 425,
+      "callee": "check_open",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::run",
+      "target": "subbrute/subbrute.py::check_open",
+      "type": "calls",
+      "line": 426,
+      "callee": "check_open",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::run",
+      "target": "subbrute/subbrute.py::verify_nameservers",
+      "type": "instantiates",
+      "line": 441,
+      "callee": "verify_nameservers",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::run",
+      "target": "subbrute/subbrute.py::lookup",
+      "type": "instantiates",
+      "line": 466,
+      "callee": "lookup",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::run",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 488,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::run",
+      "target": "subbrute/subbrute.py::killproc",
+      "type": "calls",
+      "line": 491,
+      "callee": "killproc",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::run",
+      "target": "subbrute/subbrute.py::verify_nameservers.end",
+      "type": "calls",
+      "line": 494,
+      "callee": "verify_nameservers_proc.end",
+      "confidence": "inferred_instance"
+    },
+    {
+      "source": "subbrute/subbrute.py::run",
+      "target": "subbrute/subbrute.py::trace",
+      "type": "calls",
+      "line": 495,
+      "callee": "trace",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::check_open",
+      "target": "subbrute/subbrute.py::error",
+      "type": "calls",
+      "line": 536,
+      "callee": "error",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::check_open",
+      "target": "subbrute/subbrute.py::error",
+      "type": "calls",
+      "line": 538,
+      "callee": "error",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::<module>",
+      "target": "subbrute/subbrute.py::extract_subdomains",
+      "type": "calls",
+      "line": 591,
+      "callee": "extract_subdomains",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::<module>",
+      "target": "subbrute/subbrute.py::check_open",
+      "type": "calls",
+      "line": 596,
+      "callee": "check_open",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::<module>",
+      "target": "subbrute/subbrute.py::error",
+      "type": "calls",
+      "line": 605,
+      "callee": "error",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::<module>",
+      "target": "subbrute/subbrute.py::error",
+      "type": "calls",
+      "line": 612,
+      "callee": "error",
+      "confidence": "static"
+    },
+    {
+      "source": "subbrute/subbrute.py::<module>",
+      "target": "subbrute/subbrute.py::print_target",
+      "type": "calls",
+      "line": 633,
+      "callee": "print_target",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::parser_error",
+      "target": "sublist3r.py::banner",
+      "type": "calls",
+      "line": 87,
+      "callee": "banner",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::enumratorBase.__init__",
+      "target": "sublist3r.py::enumratorBase.print_banner",
+      "type": "calls",
+      "line": 160,
+      "callee": "self.print_banner",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::enumratorBase.print_banner",
+      "target": "sublist3r.py::enumratorBase.print_",
+      "type": "calls",
+      "line": 169,
+      "callee": "self.print_",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::enumratorBase.send_req",
+      "target": "sublist3r.py::enumratorBase.get_response",
+      "type": "calls",
+      "line": 179,
+      "callee": "self.get_response",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::enumratorBase.enumerate",
+      "target": "sublist3r.py::enumratorBase.generate_query",
+      "type": "calls",
+      "line": 227,
+      "callee": "self.generate_query",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::enumratorBase.enumerate",
+      "target": "sublist3r.py::enumratorBase.check_max_subdomains",
+      "type": "calls",
+      "line": 232,
+      "callee": "self.check_max_subdomains",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::enumratorBase.enumerate",
+      "target": "sublist3r.py::enumratorBase.get_page",
+      "type": "calls",
+      "line": 233,
+      "callee": "self.get_page",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::enumratorBase.enumerate",
+      "target": "sublist3r.py::enumratorBase.check_max_pages",
+      "type": "calls",
+      "line": 235,
+      "callee": "self.check_max_pages",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::enumratorBase.enumerate",
+      "target": "sublist3r.py::enumratorBase.send_req",
+      "type": "calls",
+      "line": 237,
+      "callee": "self.send_req",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::enumratorBase.enumerate",
+      "target": "sublist3r.py::enumratorBase.check_response_errors",
+      "type": "calls",
+      "line": 240,
+      "callee": "self.check_response_errors",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::enumratorBase.enumerate",
+      "target": "sublist3r.py::enumratorBase.extract_domains",
+      "type": "calls",
+      "line": 242,
+      "callee": "self.extract_domains",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::enumratorBase.enumerate",
+      "target": "sublist3r.py::enumratorBase.get_page",
+      "type": "calls",
+      "line": 247,
+      "callee": "self.get_page",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::enumratorBase.enumerate",
+      "target": "sublist3r.py::enumratorBase.should_sleep",
+      "type": "calls",
+      "line": 254,
+      "callee": "self.should_sleep",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::BaiduEnum.extract_domains",
+      "target": "sublist3r.py::BaiduEnum.findsubs",
+      "type": "calls",
+      "line": 496,
+      "callee": "self.findsubs",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::NetcraftEnum.get_cookies",
+      "target": "sublist3r.py::NetcraftEnum.create_cookies",
+      "type": "calls",
+      "line": 560,
+      "callee": "self.create_cookies",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::NetcraftEnum.enumerate",
+      "target": "sublist3r.py::NetcraftEnum.req",
+      "type": "calls",
+      "line": 567,
+      "callee": "self.req",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::NetcraftEnum.enumerate",
+      "target": "sublist3r.py::NetcraftEnum.get_cookies",
+      "type": "calls",
+      "line": 568,
+      "callee": "self.get_cookies",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::NetcraftEnum.enumerate",
+      "target": "sublist3r.py::NetcraftEnum.req",
+      "type": "calls",
+      "line": 571,
+      "callee": "self.req",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::NetcraftEnum.enumerate",
+      "target": "sublist3r.py::NetcraftEnum.extract_domains",
+      "type": "calls",
+      "line": 572,
+      "callee": "self.extract_domains",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::NetcraftEnum.enumerate",
+      "target": "sublist3r.py::NetcraftEnum.get_next",
+      "type": "calls",
+      "line": 576,
+      "callee": "self.get_next",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::NetcraftEnum.enumerate",
+      "target": "sublist3r.py::NetcraftEnum.should_sleep",
+      "type": "calls",
+      "line": 577,
+      "callee": "self.should_sleep",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::DNSdumpster.enumerate",
+      "target": "sublist3r.py::DNSdumpster.req",
+      "type": "calls",
+      "line": 646,
+      "callee": "self.req",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::DNSdumpster.enumerate",
+      "target": "sublist3r.py::DNSdumpster.get_csrftoken",
+      "type": "calls",
+      "line": 647,
+      "callee": "self.get_csrftoken",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::DNSdumpster.enumerate",
+      "target": "sublist3r.py::DNSdumpster.req",
+      "type": "calls",
+      "line": 649,
+      "callee": "self.req",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::DNSdumpster.enumerate",
+      "target": "sublist3r.py::DNSdumpster.extract_domains",
+      "type": "calls",
+      "line": 650,
+      "callee": "self.extract_domains",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::Virustotal.enumerate",
+      "target": "sublist3r.py::Virustotal.send_req",
+      "type": "calls",
+      "line": 699,
+      "callee": "self.send_req",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::Virustotal.enumerate",
+      "target": "sublist3r.py::Virustotal.extract_domains",
+      "type": "calls",
+      "line": 708,
+      "callee": "self.extract_domains",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::ThreatCrowd.enumerate",
+      "target": "sublist3r.py::ThreatCrowd.req",
+      "type": "calls",
+      "line": 746,
+      "callee": "self.req",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::ThreatCrowd.enumerate",
+      "target": "sublist3r.py::ThreatCrowd.extract_domains",
+      "type": "calls",
+      "line": 747,
+      "callee": "self.extract_domains",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::CrtSearch.enumerate",
+      "target": "sublist3r.py::CrtSearch.req",
+      "type": "calls",
+      "line": 784,
+      "callee": "self.req",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::CrtSearch.enumerate",
+      "target": "sublist3r.py::CrtSearch.extract_domains",
+      "type": "calls",
+      "line": 786,
+      "callee": "self.extract_domains",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::PassiveDNS.enumerate",
+      "target": "sublist3r.py::PassiveDNS.req",
+      "type": "calls",
+      "line": 835,
+      "callee": "self.req",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::PassiveDNS.enumerate",
+      "target": "sublist3r.py::PassiveDNS.extract_domains",
+      "type": "calls",
+      "line": 839,
+      "callee": "self.extract_domains",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::main",
+      "target": "subbrute/subbrute.py::print_target",
+      "type": "calls",
+      "line": 963,
+      "callee": "subbrute.print_target",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::main",
+      "target": "sublist3r.py::write_file",
+      "type": "calls",
+      "line": 971,
+      "callee": "write_file",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::main",
+      "target": "sublist3r.py::portscan",
+      "type": "instantiates",
+      "line": 980,
+      "callee": "portscan",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::main",
+      "target": "sublist3r.py::portscan.run",
+      "type": "calls",
+      "line": 981,
+      "callee": "pscan.run",
+      "confidence": "inferred_instance"
+    },
+    {
+      "source": "sublist3r.py::interactive",
+      "target": "sublist3r.py::parse_args",
+      "type": "calls",
+      "line": 990,
+      "callee": "parse_args",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::interactive",
+      "target": "sublist3r.py::no_color",
+      "type": "calls",
+      "line": 1001,
+      "callee": "no_color",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::interactive",
+      "target": "sublist3r.py::banner",
+      "type": "calls",
+      "line": 1002,
+      "callee": "banner",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::interactive",
+      "target": "sublist3r.py::main",
+      "type": "calls",
+      "line": 1003,
+      "callee": "main",
+      "confidence": "static"
+    },
+    {
+      "source": "sublist3r.py::<module>",
+      "target": "sublist3r.py::interactive",
+      "type": "calls",
+      "line": 1006,
+      "callee": "interactive",
+      "confidence": "static"
+    }
+  ],
+  "resolved_call_count": 87,
+  "unresolved_call_count": 427,
+  "unresolved_reason_counts": {
+    "dynamic_attribute": 215,
+    "external_import": 105,
+    "builtin": 99,
+    "unknown_name": 8
+  },
+  "unresolved_calls": [
+    {
+      "caller": "setup.py::<module>",
+      "callee": "setup",
+      "line": 3,
+      "reason": "external_import"
+    },
+    {
+      "caller": "setup.py::<module>",
+      "callee": "find_packages",
+      "line": 8,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "sys.platform.startswith",
+      "line": 33,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.__init__",
+      "callee": "multiprocessing.Process.__init__",
+      "line": 41,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.__init__",
+      "callee": "dns.resolver.Resolver",
+      "line": 54,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.__init__",
+      "callee": "resolver.query",
+      "line": 70,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.__init__",
+      "callee": "dns.resolver.Resolver",
+      "line": 73,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.add_nameserver",
+      "callee": "self.resolver_q.put",
+      "line": 84,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.add_nameserver",
+      "callee": "type",
+      "line": 88,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.add_nameserver",
+      "callee": "str",
+      "line": 88,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.add_nameserver",
+      "callee": "type",
+      "line": 88,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.verify",
+      "callee": "server.strip",
+      "line": 97,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.verify",
+      "callee": "type",
+      "line": 114,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.run",
+      "callee": "random.shuffle",
+      "line": 119,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.run",
+      "callee": "sys.stderr.write",
+      "line": 122,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.run",
+      "callee": "self.resolver_q.put",
+      "line": 127,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "self.resolver.query",
+      "line": 141,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "uuid.uuid4",
+      "line": 141,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "len",
+      "line": 142,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "uuid.uuid4",
+      "line": 154,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "self.resolver.query",
+      "line": 155,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "str",
+      "line": 159,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "type",
+      "line": 166,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "type",
+      "line": 166,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "type",
+      "line": 171,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.__init__",
+      "callee": "multiprocessing.Process.__init__",
+      "line": 180,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.__init__",
+      "callee": "dns.resolver.Resolver",
+      "line": 189,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.get_ns",
+      "callee": "self.resolver_q.get_nowait",
+      "line": 196,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.get_ns",
+      "callee": "self.resolver_q.put",
+      "line": 199,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.get_ns_blocking",
+      "callee": "self.resolver_q.get",
+      "line": 207,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.get_ns_blocking",
+      "callee": "self.resolver_q.put",
+      "line": 211,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "len",
+      "line": 219,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "self.resolver.query",
+      "line": 227,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "str",
+      "line": 229,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "self.in_q.put",
+      "line": 234,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "range",
+      "line": 238,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "self.resolver.query",
+      "line": 240,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "str.rstrip",
+      "line": 245,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "str",
+      "line": 245,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "cname_record.append",
+      "line": 246,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "self.resolver.query",
+      "line": 251,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "type",
+      "line": 254,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "self.in_q.put",
+      "line": 258,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "type",
+      "line": 261,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "type",
+      "line": 264,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "type",
+      "line": 270,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "self.in_q.put",
+      "line": 281,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "type",
+      "line": 285,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "type",
+      "line": 289,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "self.in_q.put",
+      "line": 292,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "type",
+      "line": 294,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.run",
+      "callee": "self.in_q.get",
+      "line": 306,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.run",
+      "callee": "self.in_q.get",
+      "line": 311,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.run",
+      "callee": "self.in_q.put",
+      "line": 314,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.run",
+      "callee": "self.in_q.put",
+      "line": 323,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.run",
+      "callee": "self.out_q.put",
+      "line": 325,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.run",
+      "callee": "len",
+      "line": 328,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.run",
+      "callee": "sys.stdout.flush",
+      "line": 335,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.run",
+      "callee": "str",
+      "line": 343,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.run",
+      "callee": "found_addresses.append",
+      "line": 350,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.run",
+      "callee": "self.out_q.put",
+      "line": 354,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "re.compile",
+      "line": 359,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::extract_hosts",
+      "callee": "re.findall",
+      "line": 364,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::extract_hosts",
+      "callee": "fh.rstrip",
+      "line": 366,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::extract_hosts",
+      "callee": "host.endswith",
+      "line": 368,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::extract_hosts",
+      "callee": "ret.append",
+      "line": 369,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "re.compile",
+      "line": 374,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::extract_subdomains",
+      "callee": "open.read",
+      "line": 379,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::extract_subdomains",
+      "callee": "open",
+      "line": 379,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::extract_subdomains",
+      "callee": "re.findall",
+      "line": 380,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::extract_subdomains",
+      "callee": "i.find",
+      "line": 383,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::extract_subdomains",
+      "callee": "i.split",
+      "line": 384,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::extract_subdomains",
+      "callee": "len",
+      "line": 386,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::extract_subdomains",
+      "callee": "len",
+      "line": 391,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::extract_subdomains",
+      "callee": "str",
+      "line": 392,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::extract_subdomains",
+      "callee": "q.lower",
+      "line": 396,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::extract_subdomains",
+      "callee": "sorted",
+      "line": 404,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::extract_subdomains",
+      "callee": "subs.keys",
+      "line": 404,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::print_target",
+      "callee": "join.strip",
+      "line": 416,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::print_target",
+      "callee": "join",
+      "line": 416,
+      "reason": "unknown_name"
+    },
+    {
+      "caller": "subbrute/subbrute.py::print_target",
+      "callee": "print",
+      "line": 419,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::print_target",
+      "callee": "subdomains_list.append",
+      "line": 420,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::print_target",
+      "callee": "set",
+      "line": 422,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "len",
+      "line": 427,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "sys.stderr.write",
+      "line": 428,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "multiprocessing.Manager.dict",
+      "line": 433,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "multiprocessing.Manager",
+      "line": 433,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "multiprocessing.Manager.dict",
+      "line": 434,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "multiprocessing.Manager",
+      "line": 434,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "multiprocessing.Queue",
+      "line": 435,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "multiprocessing.Queue",
+      "line": 436,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "multiprocessing.Queue",
+      "line": 438,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "verify_nameservers_proc.start",
+      "line": 442,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "in_q.put",
+      "line": 444,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "str.strip",
+      "line": 448,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "str",
+      "line": 448,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "s.find",
+      "line": 450,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "s.split",
+      "line": 453,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "s.endswith",
+      "line": 454,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "in_q.put",
+      "line": 462,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "in_q.put",
+      "line": 464,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "range",
+      "line": 465,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "worker.start",
+      "line": 467,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "out_q.get",
+      "line": 472,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "type",
+      "line": 481,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "str",
+      "line": 481,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::run",
+      "callee": "type",
+      "line": 481,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::killproc",
+      "callee": "os.getpid",
+      "line": 502,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::killproc",
+      "callee": "sys.platform.startswith",
+      "line": 503,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::killproc",
+      "callee": "kernel32.OpenProcess",
+      "line": 506,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::killproc",
+      "callee": "kernel32.TerminateProcess",
+      "line": 507,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::killproc",
+      "callee": "os.kill",
+      "line": 512,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::trace",
+      "callee": "sys.stderr.write",
+      "line": 519,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::trace",
+      "callee": "str",
+      "line": 519,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::trace",
+      "callee": "sys.stderr.write",
+      "line": 520,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::trace",
+      "callee": "sys.stderr.write",
+      "line": 521,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::error",
+      "callee": "sys.stderr.write",
+      "line": 525,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::error",
+      "callee": "str",
+      "line": 525,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::error",
+      "callee": "sys.stderr.write",
+      "line": 526,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::error",
+      "callee": "sys.stderr.write",
+      "line": 527,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::error",
+      "callee": "sys.exit",
+      "line": 528,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::check_open",
+      "callee": "open.readlines",
+      "line": 534,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::check_open",
+      "callee": "open",
+      "line": 534,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::check_open",
+      "callee": "len",
+      "line": 537,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::signal_init",
+      "callee": "signal.signal",
+      "line": 545,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::signal_init",
+      "callee": "signal.signal",
+      "line": 547,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::signal_init",
+      "callee": "signal.signal",
+      "line": 548,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "getattr",
+      "line": 554,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "os.path.dirname",
+      "line": 556,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "multiprocessing.freeze_support",
+      "line": 557,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "os.path.dirname",
+      "line": 560,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "os.path.realpath",
+      "line": 560,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "optparse.OptionParser",
+      "line": 561,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "parser.add_option",
+      "line": 562,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "os.path.join",
+      "line": 562,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "parser.add_option",
+      "line": 564,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "os.path.join",
+      "line": 564,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "parser.add_option",
+      "line": 566,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "parser.add_option",
+      "line": 568,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "parser.add_option",
+      "line": 569,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "parser.add_option",
+      "line": 570,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "parser.add_option",
+      "line": 572,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "parser.add_option",
+      "line": 574,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "parser.add_option",
+      "line": 577,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "parser.add_option",
+      "line": 579,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "parser.parse_args",
+      "line": 581,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "len",
+      "line": 586,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "parser.error",
+      "line": 587,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "print",
+      "line": 592,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "sys.exit",
+      "line": 593,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "open",
+      "line": 603,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "open",
+      "line": 610,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "str.upper",
+      "line": 618,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "str",
+      "line": 618,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "target.strip",
+      "line": 622,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "print",
+      "line": 632,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::<module>",
+      "callee": "requests.packages.urllib3.disable_warnings",
+      "line": 37,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::<module>",
+      "callee": "sys.platform.startswith",
+      "line": 42,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::<module>",
+      "callee": "win_unicode_console.enable",
+      "line": 54,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::<module>",
+      "callee": "colorama.init",
+      "line": 55,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::<module>",
+      "callee": "print",
+      "line": 58,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::banner",
+      "callee": "print",
+      "line": 75,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::parser_error",
+      "callee": "print",
+      "line": 88,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::parser_error",
+      "callee": "print",
+      "line": 89,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::parser_error",
+      "callee": "sys.exit",
+      "line": 90,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::parse_args",
+      "callee": "argparse.ArgumentParser",
+      "line": 95,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::parse_args",
+      "callee": "parser.add_argument",
+      "line": 98,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::parse_args",
+      "callee": "parser.add_argument",
+      "line": 99,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::parse_args",
+      "callee": "parser.add_argument",
+      "line": 100,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::parse_args",
+      "callee": "parser.add_argument",
+      "line": 101,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::parse_args",
+      "callee": "parser.add_argument",
+      "line": 102,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::parse_args",
+      "callee": "parser.add_argument",
+      "line": 103,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::parse_args",
+      "callee": "parser.add_argument",
+      "line": 104,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::parse_args",
+      "callee": "parser.add_argument",
+      "line": 105,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::parse_args",
+      "callee": "parser.parse_args",
+      "line": 106,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::write_file",
+      "callee": "print",
+      "line": 111,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::write_file",
+      "callee": "open",
+      "line": 112,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::write_file",
+      "callee": "str",
+      "line": 112,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::write_file",
+      "callee": "f.write",
+      "line": 114,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::subdomain_sorting_key",
+      "callee": "hostname.split",
+      "line": 137,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::enumratorBase.__init__",
+      "callee": "urlparse.urlparse",
+      "line": 146,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::enumratorBase.__init__",
+      "callee": "requests.Session",
+      "line": 147,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::enumratorBase.print_",
+      "callee": "print",
+      "line": 164,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::enumratorBase.send_req",
+      "callee": "self.base_url.format",
+      "line": 174,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::enumratorBase.send_req",
+      "callee": "self.session.get",
+      "line": 176,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::enumratorBase.get_response",
+      "callee": "hasattr",
+      "line": 184,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::enumratorBase.enumerate",
+      "callee": "query.count",
+      "line": 228,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::enumratorBaseThreaded.__init__",
+      "callee": "enumratorBase.__init__",
+      "line": 262,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::enumratorBaseThreaded.__init__",
+      "callee": "multiprocessing.Process.__init__",
+      "line": 263,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::enumratorBaseThreaded.run",
+      "callee": "self.enumerate",
+      "line": 268,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::enumratorBaseThreaded.run",
+      "callee": "self.q.append",
+      "line": 270,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.__init__",
+      "callee": "super.__init__",
+      "line": 280,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.__init__",
+      "callee": "super",
+      "line": 280,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.extract_domains",
+      "callee": "list",
+      "line": 285,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.extract_domains",
+      "callee": "re.compile",
+      "line": 286,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.extract_domains",
+      "callee": "link_regx.findall",
+      "line": 288,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.extract_domains",
+      "callee": "re.sub",
+      "line": 290,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.extract_domains",
+      "callee": "link.startswith",
+      "line": 291,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.extract_domains",
+      "callee": "urlparse.urlparse",
+      "line": 293,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.extract_domains",
+      "callee": "self.print_",
+      "line": 296,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.extract_domains",
+      "callee": "self.subdomains.append",
+      "line": 297,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.extract_domains",
+      "callee": "subdomain.strip",
+      "line": 297,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.check_response_errors",
+      "callee": "type",
+      "line": 303,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.check_response_errors",
+      "callee": "type",
+      "line": 303,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.check_response_errors",
+      "callee": "self.print_",
+      "line": 304,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.check_response_errors",
+      "callee": "self.print_",
+      "line": 305,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.should_sleep",
+      "callee": "time.sleep",
+      "line": 310,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.generate_query",
+      "callee": "join",
+      "line": 316,
+      "reason": "unknown_name"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.generate_query",
+      "callee": "fmt.format",
+      "line": 317,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::GoogleEnum.generate_query",
+      "callee": "format",
+      "line": 319,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.__init__",
+      "callee": "super.__init__",
+      "line": 330,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.__init__",
+      "callee": "super",
+      "line": 330,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.extract_domains",
+      "callee": "re.compile",
+      "line": 335,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.extract_domains",
+      "callee": "re.compile",
+      "line": 336,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.extract_domains",
+      "callee": "link_regx.findall",
+      "line": 339,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.extract_domains",
+      "callee": "link_regx2.findall",
+      "line": 340,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.extract_domains",
+      "callee": "re.sub",
+      "line": 343,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.extract_domains",
+      "callee": "link.startswith",
+      "line": 344,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.extract_domains",
+      "callee": "urlparse.urlparse",
+      "line": 346,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.extract_domains",
+      "callee": "subdomain.endswith",
+      "line": 347,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.extract_domains",
+      "callee": "self.print_",
+      "line": 351,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.extract_domains",
+      "callee": "self.subdomains.append",
+      "line": 352,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.extract_domains",
+      "callee": "subdomain.strip",
+      "line": 352,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.generate_query",
+      "callee": "join",
+      "line": 367,
+      "reason": "unknown_name"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.generate_query",
+      "callee": "fmt.format",
+      "line": 368,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::YahooEnum.generate_query",
+      "callee": "format",
+      "line": 370,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::AskEnum.__init__",
+      "callee": "enumratorBaseThreaded.__init__",
+      "line": 381,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::AskEnum.extract_domains",
+      "callee": "list",
+      "line": 386,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::AskEnum.extract_domains",
+      "callee": "re.compile",
+      "line": 387,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::AskEnum.extract_domains",
+      "callee": "link_regx.findall",
+      "line": 389,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::AskEnum.extract_domains",
+      "callee": "link.startswith",
+      "line": 391,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::AskEnum.extract_domains",
+      "callee": "urlparse.urlparse",
+      "line": 393,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::AskEnum.extract_domains",
+      "callee": "self.print_",
+      "line": 396,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::AskEnum.extract_domains",
+      "callee": "self.subdomains.append",
+      "line": 397,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::AskEnum.extract_domains",
+      "callee": "subdomain.strip",
+      "line": 397,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::AskEnum.generate_query",
+      "callee": "join",
+      "line": 409,
+      "reason": "unknown_name"
+    },
+    {
+      "caller": "sublist3r.py::AskEnum.generate_query",
+      "callee": "fmt.format",
+      "line": 410,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::AskEnum.generate_query",
+      "callee": "format",
+      "line": 412,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::BingEnum.__init__",
+      "callee": "enumratorBaseThreaded.__init__",
+      "line": 424,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BingEnum.extract_domains",
+      "callee": "list",
+      "line": 430,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::BingEnum.extract_domains",
+      "callee": "re.compile",
+      "line": 431,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::BingEnum.extract_domains",
+      "callee": "re.compile",
+      "line": 432,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::BingEnum.extract_domains",
+      "callee": "link_regx.findall",
+      "line": 434,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BingEnum.extract_domains",
+      "callee": "link_regx2.findall",
+      "line": 435,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BingEnum.extract_domains",
+      "callee": "re.sub",
+      "line": 439,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::BingEnum.extract_domains",
+      "callee": "link.startswith",
+      "line": 440,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BingEnum.extract_domains",
+      "callee": "urlparse.urlparse",
+      "line": 442,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::BingEnum.extract_domains",
+      "callee": "self.print_",
+      "line": 445,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BingEnum.extract_domains",
+      "callee": "self.subdomains.append",
+      "line": 446,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BingEnum.extract_domains",
+      "callee": "subdomain.strip",
+      "line": 446,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BingEnum.generate_query",
+      "callee": "join",
+      "line": 455,
+      "reason": "unknown_name"
+    },
+    {
+      "caller": "sublist3r.py::BingEnum.generate_query",
+      "callee": "fmt.format",
+      "line": 456,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BingEnum.generate_query",
+      "callee": "format",
+      "line": 458,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.__init__",
+      "callee": "enumratorBaseThreaded.__init__",
+      "line": 469,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.extract_domains",
+      "callee": "list",
+      "line": 475,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.extract_domains",
+      "callee": "re.compile",
+      "line": 478,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.extract_domains",
+      "callee": "link_regx.findall",
+      "line": 480,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.extract_domains",
+      "callee": "re.sub",
+      "line": 482,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.extract_domains",
+      "callee": "link.startswith",
+      "line": 483,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.extract_domains",
+      "callee": "urlparse.urlparse",
+      "line": 485,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.extract_domains",
+      "callee": "subdomain.endswith",
+      "line": 486,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.extract_domains",
+      "callee": "subdomain_list.append",
+      "line": 487,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.extract_domains",
+      "callee": "self.print_",
+      "line": 491,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.extract_domains",
+      "callee": "self.subdomains.append",
+      "line": 492,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.extract_domains",
+      "callee": "subdomain.strip",
+      "line": 492,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.findsubs",
+      "callee": "Counter",
+      "line": 500,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.findsubs",
+      "callee": "max",
+      "line": 501,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.findsubs",
+      "callee": "count.pop",
+      "line": 502,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.findsubs",
+      "callee": "max",
+      "line": 503,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.should_sleep",
+      "callee": "time.sleep",
+      "line": 510,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.should_sleep",
+      "callee": "random.randint",
+      "line": 510,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.generate_query",
+      "callee": "join",
+      "line": 515,
+      "reason": "unknown_name"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.generate_query",
+      "callee": "format",
+      "line": 516,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::BaiduEnum.generate_query",
+      "callee": "format",
+      "line": 518,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.__init__",
+      "callee": "super.__init__",
+      "line": 527,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.__init__",
+      "callee": "super",
+      "line": 527,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.req",
+      "callee": "self.session.get",
+      "line": 534,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.req",
+      "callee": "self.print_",
+      "line": 536,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.should_sleep",
+      "callee": "time.sleep",
+      "line": 541,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.should_sleep",
+      "callee": "random.randint",
+      "line": 541,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.get_next",
+      "callee": "re.compile",
+      "line": 545,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.get_next",
+      "callee": "link_regx.findall",
+      "line": 546,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.create_cookies",
+      "callee": "dict",
+      "line": 551,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.create_cookies",
+      "callee": "cookie.split",
+      "line": 552,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.create_cookies",
+      "callee": "cookie.find",
+      "line": 552,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.create_cookies",
+      "callee": "hashlib.sha1.hexdigest",
+      "line": 555,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.create_cookies",
+      "callee": "hashlib.sha1",
+      "line": 555,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.create_cookies",
+      "callee": "urllib.unquote.encode",
+      "line": 555,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.create_cookies",
+      "callee": "urllib.unquote",
+      "line": 555,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.enumerate",
+      "callee": "self.base_url.format",
+      "line": 566,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.enumerate",
+      "callee": "self.base_url.format",
+      "line": 569,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.enumerate",
+      "callee": "self.get_response",
+      "line": 571,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.extract_domains",
+      "callee": "list",
+      "line": 580,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.extract_domains",
+      "callee": "re.compile",
+      "line": 581,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.extract_domains",
+      "callee": "link_regx.findall",
+      "line": 583,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.extract_domains",
+      "callee": "urlparse.urlparse",
+      "line": 585,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.extract_domains",
+      "callee": "subdomain.endswith",
+      "line": 586,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.extract_domains",
+      "callee": "self.print_",
+      "line": 590,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.extract_domains",
+      "callee": "self.subdomains.append",
+      "line": 591,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::NetcraftEnum.extract_domains",
+      "callee": "subdomain.strip",
+      "line": 591,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.__init__",
+      "callee": "super.__init__",
+      "line": 605,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.__init__",
+      "callee": "super",
+      "line": 605,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.check_host",
+      "callee": "dns.resolver.Resolver",
+      "line": 610,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.check_host",
+      "callee": "self.lock.acquire",
+      "line": 612,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.check_host",
+      "callee": "Resolver.query.to_text",
+      "line": 614,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.check_host",
+      "callee": "Resolver.query",
+      "line": 614,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.check_host",
+      "callee": "self.print_",
+      "line": 617,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.check_host",
+      "callee": "self.live_subdomains.append",
+      "line": 619,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.check_host",
+      "callee": "self.lock.release",
+      "line": 622,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.req",
+      "callee": "dict",
+      "line": 627,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.req",
+      "callee": "self.session.get",
+      "line": 631,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.req",
+      "callee": "self.session.post",
+      "line": 633,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.req",
+      "callee": "self.print_",
+      "line": 635,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.req",
+      "callee": "self.get_response",
+      "line": 637,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.get_csrftoken",
+      "callee": "re.compile",
+      "line": 640,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.get_csrftoken",
+      "callee": "csrf_regex.findall",
+      "line": 641,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.get_csrftoken",
+      "callee": "token.strip",
+      "line": 642,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.enumerate",
+      "callee": "threading.BoundedSemaphore",
+      "line": 645,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.enumerate",
+      "callee": "threading.Thread",
+      "line": 652,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.enumerate",
+      "callee": "t.start",
+      "line": 653,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.enumerate",
+      "callee": "t.join",
+      "line": 654,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.extract_domains",
+      "callee": "re.compile",
+      "line": 658,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.extract_domains",
+      "callee": "re.compile",
+      "line": 659,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.extract_domains",
+      "callee": "tbl_regex.findall",
+      "line": 662,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.extract_domains",
+      "callee": "link_regex.findall",
+      "line": 665,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.extract_domains",
+      "callee": "list",
+      "line": 666,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.extract_domains",
+      "callee": "set",
+      "line": 666,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.extract_domains",
+      "callee": "link.strip",
+      "line": 668,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.extract_domains",
+      "callee": "subdomain.endswith",
+      "line": 669,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.extract_domains",
+      "callee": "self.subdomains.append",
+      "line": 672,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::DNSdumpster.extract_domains",
+      "callee": "subdomain.strip",
+      "line": 672,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::Virustotal.__init__",
+      "callee": "super.__init__",
+      "line": 682,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::Virustotal.__init__",
+      "callee": "super",
+      "line": 682,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::Virustotal.__init__",
+      "callee": "self.base_url.format",
+      "line": 683,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::Virustotal.send_req",
+      "callee": "self.session.get",
+      "line": 689,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::Virustotal.send_req",
+      "callee": "self.print_",
+      "line": 691,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::Virustotal.send_req",
+      "callee": "self.get_response",
+      "line": 694,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::Virustotal.enumerate",
+      "callee": "json.loads",
+      "line": 700,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::Virustotal.enumerate",
+      "callee": "self.print_",
+      "line": 702,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::Virustotal.extract_domains",
+      "callee": "subdomain.endswith",
+      "line": 717,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::Virustotal.extract_domains",
+      "callee": "self.print_",
+      "line": 721,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::Virustotal.extract_domains",
+      "callee": "self.subdomains.append",
+      "line": 722,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::Virustotal.extract_domains",
+      "callee": "subdomain.strip",
+      "line": 722,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::ThreatCrowd.__init__",
+      "callee": "super.__init__",
+      "line": 733,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::ThreatCrowd.__init__",
+      "callee": "super",
+      "line": 733,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::ThreatCrowd.req",
+      "callee": "self.session.get",
+      "line": 738,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::ThreatCrowd.req",
+      "callee": "self.get_response",
+      "line": 742,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::ThreatCrowd.enumerate",
+      "callee": "self.base_url.format",
+      "line": 745,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::ThreatCrowd.extract_domains",
+      "callee": "json.loads",
+      "line": 752,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::ThreatCrowd.extract_domains",
+      "callee": "link.strip",
+      "line": 754,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::ThreatCrowd.extract_domains",
+      "callee": "subdomain.endswith",
+      "line": 755,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::ThreatCrowd.extract_domains",
+      "callee": "self.print_",
+      "line": 759,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::ThreatCrowd.extract_domains",
+      "callee": "self.subdomains.append",
+      "line": 760,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::ThreatCrowd.extract_domains",
+      "callee": "subdomain.strip",
+      "line": 760,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.__init__",
+      "callee": "super.__init__",
+      "line": 771,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.__init__",
+      "callee": "super",
+      "line": 771,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.req",
+      "callee": "self.session.get",
+      "line": 776,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.req",
+      "callee": "self.get_response",
+      "line": 780,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.enumerate",
+      "callee": "self.base_url.format",
+      "line": 783,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.extract_domains",
+      "callee": "re.compile",
+      "line": 790,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.extract_domains",
+      "callee": "link_regx.findall",
+      "line": 792,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.extract_domains",
+      "callee": "link.strip",
+      "line": 794,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.extract_domains",
+      "callee": "link.split",
+      "line": 797,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.extract_domains",
+      "callee": "subdomains.append",
+      "line": 799,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.extract_domains",
+      "callee": "subdomain.endswith",
+      "line": 802,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.extract_domains",
+      "callee": "subdomain.find",
+      "line": 806,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.extract_domains",
+      "callee": "self.print_",
+      "line": 810,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.extract_domains",
+      "callee": "self.subdomains.append",
+      "line": 811,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.extract_domains",
+      "callee": "subdomain.strip",
+      "line": 811,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::CrtSearch.extract_domains",
+      "callee": "print",
+      "line": 813,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::PassiveDNS.__init__",
+      "callee": "super.__init__",
+      "line": 822,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::PassiveDNS.__init__",
+      "callee": "super",
+      "line": 822,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::PassiveDNS.req",
+      "callee": "self.session.get",
+      "line": 827,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::PassiveDNS.req",
+      "callee": "self.get_response",
+      "line": 831,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::PassiveDNS.enumerate",
+      "callee": "self.base_url.format",
+      "line": 834,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::PassiveDNS.extract_domains",
+      "callee": "json.loads",
+      "line": 844,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::PassiveDNS.extract_domains",
+      "callee": "self.print_",
+      "line": 848,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::PassiveDNS.extract_domains",
+      "callee": "self.subdomains.append",
+      "line": 849,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::PassiveDNS.extract_domains",
+      "callee": "subdomain.strip",
+      "line": 849,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::portscan.port_scan",
+      "callee": "self.lock.acquire",
+      "line": 862,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::portscan.port_scan",
+      "callee": "socket.socket",
+      "line": 865,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::portscan.port_scan",
+      "callee": "s.settimeout",
+      "line": 866,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::portscan.port_scan",
+      "callee": "s.connect_ex",
+      "line": 867,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::portscan.port_scan",
+      "callee": "int",
+      "line": 867,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::portscan.port_scan",
+      "callee": "openports.append",
+      "line": 869,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::portscan.port_scan",
+      "callee": "s.close",
+      "line": 870,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::portscan.port_scan",
+      "callee": "self.lock.release",
+      "line": 873,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::portscan.port_scan",
+      "callee": "len",
+      "line": 874,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::portscan.port_scan",
+      "callee": "print",
+      "line": 875,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::portscan.port_scan",
+      "callee": "join",
+      "line": 875,
+      "reason": "unknown_name"
+    },
+    {
+      "caller": "sublist3r.py::portscan.run",
+      "callee": "threading.BoundedSemaphore",
+      "line": 878,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::portscan.run",
+      "callee": "threading.Thread",
+      "line": 880,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::portscan.run",
+      "callee": "t.start",
+      "line": 881,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "set",
+      "line": 885,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "set",
+      "line": 886,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "list",
+      "line": 889,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "multiprocessing.Manager.list",
+      "line": 891,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "multiprocessing.Manager",
+      "line": 891,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "re.compile",
+      "line": 898,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "domain_check.match",
+      "line": 899,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "print",
+      "line": 901,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "domain.startswith",
+      "line": 904,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "domain.startswith",
+      "line": 904,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "urlparse.urlparse",
+      "line": 907,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "print",
+      "line": 910,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "print",
+      "line": 913,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "engines.split",
+      "line": 937,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "engine.lower",
+      "line": 939,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "chosenEnums.append",
+      "line": 940,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "engine.lower",
+      "line": 940,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "enum",
+      "line": 943,
+      "reason": "unknown_name"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "enum.start",
+      "line": 945,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "enum.join",
+      "line": 947,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "set",
+      "line": 949,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "search_list.add",
+      "line": 951,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "print",
+      "line": 955,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "os.path.dirname",
+      "line": 957,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "os.path.realpath",
+      "line": 957,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "os.path.join",
+      "line": 958,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "os.path.join",
+      "line": 959,
+      "reason": "external_import"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "search_list.union",
+      "line": 965,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "sorted",
+      "line": 968,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "print",
+      "line": 974,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "len",
+      "line": 974,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "print",
+      "line": 978,
+      "reason": "builtin"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "ports.split",
+      "line": 979,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "sublist3r.py::main",
+      "callee": "print",
+      "line": 985,
+      "reason": "builtin"
+    }
+  ],
+  "unresolved_examples": [
+    {
+      "caller": "setup.py::<module>",
+      "callee": "setup",
+      "line": 3,
+      "reason": "external_import"
+    },
+    {
+      "caller": "setup.py::<module>",
+      "callee": "find_packages",
+      "line": 8,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::<module>",
+      "callee": "sys.platform.startswith",
+      "line": 33,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.__init__",
+      "callee": "multiprocessing.Process.__init__",
+      "line": 41,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.__init__",
+      "callee": "dns.resolver.Resolver",
+      "line": 54,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.__init__",
+      "callee": "resolver.query",
+      "line": 70,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.__init__",
+      "callee": "dns.resolver.Resolver",
+      "line": 73,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.add_nameserver",
+      "callee": "self.resolver_q.put",
+      "line": 84,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.add_nameserver",
+      "callee": "type",
+      "line": 88,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.add_nameserver",
+      "callee": "str",
+      "line": 88,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.add_nameserver",
+      "callee": "type",
+      "line": 88,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.verify",
+      "callee": "server.strip",
+      "line": 97,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.verify",
+      "callee": "type",
+      "line": 114,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.run",
+      "callee": "random.shuffle",
+      "line": 119,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.run",
+      "callee": "sys.stderr.write",
+      "line": 122,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.run",
+      "callee": "self.resolver_q.put",
+      "line": 127,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "self.resolver.query",
+      "line": 141,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "uuid.uuid4",
+      "line": 141,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "len",
+      "line": 142,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "uuid.uuid4",
+      "line": 154,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "self.resolver.query",
+      "line": 155,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "str",
+      "line": 159,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "type",
+      "line": 166,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "type",
+      "line": 166,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::verify_nameservers.find_wildcards",
+      "callee": "type",
+      "line": 171,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.__init__",
+      "callee": "multiprocessing.Process.__init__",
+      "line": 180,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.__init__",
+      "callee": "dns.resolver.Resolver",
+      "line": 189,
+      "reason": "external_import"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.get_ns",
+      "callee": "self.resolver_q.get_nowait",
+      "line": 196,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.get_ns",
+      "callee": "self.resolver_q.put",
+      "line": 199,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.get_ns_blocking",
+      "callee": "self.resolver_q.get",
+      "line": 207,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.get_ns_blocking",
+      "callee": "self.resolver_q.put",
+      "line": 211,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "len",
+      "line": 219,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "self.resolver.query",
+      "line": 227,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "str",
+      "line": 229,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "self.in_q.put",
+      "line": 234,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "range",
+      "line": 238,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "self.resolver.query",
+      "line": 240,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "str.rstrip",
+      "line": 245,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "str",
+      "line": 245,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "cname_record.append",
+      "line": 246,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "self.resolver.query",
+      "line": 251,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "type",
+      "line": 254,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "self.in_q.put",
+      "line": 258,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "type",
+      "line": 261,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "type",
+      "line": 264,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "type",
+      "line": 270,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "self.in_q.put",
+      "line": 281,
+      "reason": "dynamic_attribute"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "type",
+      "line": 285,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "type",
+      "line": 289,
+      "reason": "builtin"
+    },
+    {
+      "caller": "subbrute/subbrute.py::lookup.check",
+      "callee": "self.in_q.put",
+      "line": 292,
+      "reason": "dynamic_attribute"
+    }
+  ],
+  "limitations": [
+    "정적 규칙 기반 해석이므로 동적 import, 콜백, 데코레이터와 다형성 호출을 놓칠 수 있습니다.",
+    "unique_name_heuristic 관계는 낮은 신뢰도의 검토 후보입니다."
+  ]
+}
